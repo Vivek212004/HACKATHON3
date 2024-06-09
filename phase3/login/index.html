@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div id="login-container">
+        <form id="login-form" action="login.jsp">
+            <h1>Login</h1>
+            <div class="input-group">
+                <i class='bx bx-envelope'></i>
+                <input type="email" placeholder="Email" required name="fname">
+            </div>
+            <div class="input-group">
+                <i class='bx bx-lock'></i>
+                <input type="password" placeholder="Password" required name="pwd">
+            </div>
+            <button type="submit" class="submit-button">Login</button>
+            <p>Don't have an account? <a href="registration.html">Register here</a></p>
+        </form>
+    </div>
+    <script src="Login.js"></script>
+</body>
+</html>

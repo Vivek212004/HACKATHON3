@@ -1,0 +1,116 @@
+@media(max-width: 991px){
+    .home-sec .home-content {
+        padding: 70px 0;
+    }
+    .cont-sec p,
+    .cont-sec .social {
+        text-align: center;
+    }
+    .home-sec .img-sec img {
+        margin-bottom: 50px;
+    }   
+    .about-sec .about-img {
+        display: flex;
+        justify-content: center;
+    }
+    .about-sec .about-img img{
+        margin-top: 50px;
+    }
+    .contact-sec .col-lg-12{
+        padding: 0;
+    }
+    .contact-form textarea.form-control {
+        width: 96%;
+        margin-left: 15px;
+    }
+    .gallery-sec .pop-image img {
+        top: 60%;
+        left: 50%;
+        width: 500px;
+    }
+}
+@media(max-width: 611px){
+    .about-sec .about-img img{
+        width: 300px;
+    }
+    .contact-section .contact-form textarea.form-control {
+        width: 94%;
+    }
+}
+
+
+@media(max-width: 551px){
+
+header .navbar-brand{
+    font-size: 18px;
+}
+.gallery-sec .pop-image img {
+    top: 50%;
+}
+.gallery-sec .pop-image img {
+    width: 300px;
+}
+}
+
+/* Login/Register Form */
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #303054;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Profile Icon and Logout Button */
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-item a {
+    color: #fff;
+}
+
+.fa-user-circle,
+.fa-sign-out {
+    font-size: 20px;
+}
+
+/* Responsive Adjustments */
+@media(max-width: 991px) {
+    .login-form {
+        width: 80%;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-nav .nav-item a {
+        padding: 0 10px;
+    }
+}

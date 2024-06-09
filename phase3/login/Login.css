@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--grey);
+    font-family: var(--lato);
+}
+
+#login-container, #registration-container {
+    background: var(--light);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: var(--poppins);
+}
+
+#login-form, #registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form h1, #registration-form h1 {
+    margin-bottom: 20px;
+    color: var(--dark);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: var(--grey);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.input-group i {
+    color: var(--dark-grey);
+    margin-right: 10px;
+}
+
+.input-group input {
+    border: none;
+    background: none;
+    outline: none;
+    flex-grow: 1;
+    font-family: var(--lato);
+}
+
+.generate-otp-button {
+    background-color: var(--blue);
+    color: var(--light);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.generate-otp-button:hover {
+    background-color: #3C91E6; /* Darker blue background on hover */
+}
+
+.submit-button {
+    background-color: #28a745; /* Green background */
+    color: var(--light);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Darker green background on hover */
+}
+
+p {
+    text-align: center;
+    font-family: var(--lato);
+}
+
+p a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

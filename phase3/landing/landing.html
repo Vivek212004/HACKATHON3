@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Recycle Cleaning</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Add Google Font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Custom animations and font */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    *{
+      color: black;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .slide-in {
+      animation: slideIn 1s ease-in-out;
+    }
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .hero-section {
+      font-family: 'Roboto', sans-serif; /* Apply Google Font */
+      background-color: #e8f5e9;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden; /* Ensure SVGs don't overflow */
+    }
+
+    .background-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; /* Make SVGs not clickable */
+    }
+
+    .btn-custom {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #1b5e20;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid hero-section">
+    <h1 class="display-4 fade-in">Smart Recycle Cleaning</h1>
+    <p class="lead fade-in">Making the world a cleaner place, one smart recycle at a time.</p>
+    <!-- Change the button to an anchor tag -->
+    <a href="../register/index.html" class="btn btn-custom btn-lg slide-in mt-3">Get Started</a>
+    
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
